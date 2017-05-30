@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	width: 100%;
+
+}
+header {
+	background-color: #5b005b;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+.bar,
+.bar1 {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	width: 100px;
+	height: 20px;
+	padding: 20px;
+	float: right;
+}
+.bar:hover {
+	background-color: #c39797;
+	color: #000;
+}
+.bar1 {
+	float: left;
+	font-style: italic;
+	font-size: 20px;
+	text-shadow: 10px -8px 3px;
+}
+figure {
+	margin: 0;
+	position: relative;
+	width: 100%;
+}
+figcaption {
+	color: #fff;
+	display: inline-block;
+	text-shadow: 10px 10px 8px #fff;
+	font-size: 30px;
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+}
+.about {
+	display: block;
+	position: relative;
+	background-color: #c39797;
+	background-image: linear-gradient( to top left, #fff, #000),
+                      linear-gradient( to top right, #fff, #000);
+}
+.box {
+	width: 550px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 16px;
+	padding: 30px;
+	border: 15px double #e1ede1;
+	border-bottom-right-radius:100px;
+	background-color: #fff;
+	box-shadow: 10px 10px 15px #007777 inset; 
+}
+h2 {
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 10px #333;
+}
+p {
+	text-align: justify;
+	font-size: 15px;
+	font-family: georgia;
+	text-shadow: 0 0 30px grey;
+}
+#box-2 {
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 80px;
+}
+footer {
+	background-color: #5b005b;
+	width: 100%;
+}
+h3 {
+	margin: 0;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+ul {
+	color: black;
+	text-align: center;
+}
+li{
+	display: inline-block;
+	list-style-type: none;
+}
+.n-facebook,
+.n-twitter,
+.n-instagram,
+.n-googleplus {
+	font-size: 38px;
+	text-decoration: none;
+} 
+.n-facebook::after {
+	content: "\f081";
+	color: #354c8c;
+	
+}
+.n-twitter {
+    content: "\2764";
+    color: #1b73a4;
+}
+.n-instagram::after {
+	content: "\f081";
+	color:#fff;
+}
+.n-googleplus {
+	content: "";
+	color: #dd4b38;
+}
+.p1::before {
+	content: "\00A9";
+}
+.p1 {
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0;
+}
