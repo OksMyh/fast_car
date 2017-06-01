@@ -14,7 +14,7 @@ th {
 	font-size: 30px;
 }
 td {
-	padding: 10px;
+	padding: 9px;
 }
 tr:nth-child(odd) {
 	background-color: #a73a3a;
