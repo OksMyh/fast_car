@@ -1,0 +1,25 @@
+body {
+	background: #b55f63;
+}
+table {
+	margin: auto;
+	margin-top: 50px;
+	border-top: 3px solid #8b0000;	
+	border-right: 3px solid #b55f63;
+	border-left: 10px solid #8b0000;
+	border-bottom: 3px solid #b55f63;
+	border-collapse: collapse;
+}
+th {
+	font-size: 20px;
+}
+td {
+	padding: 10px;
+}
+tr:nth-child(odd) {
+	background-color: #a73a3a;
+}
+tr:first-child {
+	background-color: #e3e3e3;
+	height: 40px;
+}
