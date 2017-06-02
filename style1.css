@@ -7,7 +7,7 @@ table {
 	border-top: 3px solid #8b0000;	
 	border-right: 3px solid #b55f63;
 	border-left: 10px solid #8b0000;
-	border-bottom: 3px solid #b55f63;
+	border-bottom: 3px solid #8b0000;;
 	border-collapse: collapse;
 }
 th {
@@ -23,3 +23,30 @@ tr:first-child {
 	background-color: #e3e3e3;
 	height: 40px;
 }
+footer {
+	text-align: center;
+	font-size: 20px;
+
+}
+.fa-facebook:hover {
+	background-color: #3d5b99;
+}
+.fa-twitter:hover {
+	background-color: #00aced;
+}
+.fa-google-plus:hover {
+	background-color: #e25714;
+}
+.fa-instagram:hover {
+	background-color: #322f30;
+}
+.fa-youtube:hover {
+	background-color: #e64a41;
+}
+.fa {
+	padding: 10px 14px;
+}
+p {
+	font-family: arial;
+}
+
